@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Exercicio </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">G1</div>
+                <ul>
+                    <li><a href="#"></a>Inicio</li>
+                    <li><a href="#"></a>Sobre</li>
+                    <li><a href="#"></a>Contato</li>
+                </ul>
+            <div onclick="toggleDarkMode()" class="dark-mode-toggle">DARK MODE</div>
+            
+        </nav>
+    </header>
+        <section class="cards">
+            <div class="card">
+                <h3><a href="https://g1.globo.com/economia/noticia/2025/03/13/trump-ameaca-taxar-em-200percent-os-vinhos-e-champanhes-europeus-se-ue-nao-retirar-tarifa-de-50percent-sobre-uisque-dos-eua.ghtml">Trup ameaça taxar vinhos europeus em 200%</a></h3>
+                <img class="imagem" src="imgs/trump.avif" alt="trump">
+
+            </div> <!-- Fim card 1-->
+            <div class="card">
+                <h3><a href= "https://g1.globo.com/sp/sao-paulo/noticia/2025/03/13/temporal-em-sp-mais-de-300-arvores-caem-e-74-mil-imoveis-seguem-sem-luz.ghtml">Chuva em SP derrubou 330 árvores; deixa 74 mil imoveis sem luz</a></h3>
+                <img class="imagem" src="imgs/chuvasp.avif" alt="chuvas em sp">
+            </div> <!-- Fim card 2--> 
+            <div class="card">
+                <h3><a href="https://g1.globo.com/economia/imposto-de-renda/noticia/2025/03/13/imposto-de-renda-2025-programa-para-declaracao-fica-disponivel-para-download-veja-como-baixar.ghtml">IR:programa para fazer declaração esta disponivel para donwload</a></h3>
+                <img class="imagem" src="imgs/nsei.webp" alt="programa">
+
+            </div> <!-- Fim card 3-->
+        </section>
+    <footer>
+        <p>Portal G1 noticias - 2025</p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode')
+
+        }
+    </script>
+</body>
+
+</html>

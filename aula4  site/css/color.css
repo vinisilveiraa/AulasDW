@@ -1,0 +1,17 @@
+:root {
+    /*tema claro */
+    --color-bg :#fff;
+    --text-color: #000;
+    --navbar-bg: #c4070c;
+    --footer-bg: #c4070c;
+    --card-bg: #edecf3;
+
+    body.dark-mode{
+        --color-bg :#000;
+        --text-color: #fff;
+        --navbar-bg: #c4070c;
+        --footer-bg: #c4070c;
+        --card-bg: #1e1e1e;
+    }
+
+}
