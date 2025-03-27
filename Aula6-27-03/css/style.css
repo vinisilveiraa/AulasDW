@@ -27,6 +27,7 @@ table, tbody, tr, td {
     border-top: 1px solid #ccc;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
+    font-family: "VT323", monospace;
 }
 
 .resultado {
@@ -39,6 +40,7 @@ table, tbody, tr, td {
     border-bottom: 1px solid #ccc;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
+    font-family: "VT323", monospace;
 }
 
 .limpar {
