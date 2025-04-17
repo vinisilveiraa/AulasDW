@@ -1,0 +1,7 @@
+https://www.jsdelivr.com/package/npm/font-awesome
+
+https://fontawesome.com/v4/icons/
+
+https://fontawesome.com/
+
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
